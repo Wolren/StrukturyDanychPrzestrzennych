@@ -1,0 +1,71 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+__pypackages__/
+
+# --- Środowiska wirtualne ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Pakowanie (uv, pip) ---
+*.egg-info/
+.eggs/
+build/
+dist/
+sdist/
+wheels/
+pip-wheel-metadata/
+
+# --- Cache narzędzi ---
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+.pylint.d/
+.hypothesis/
+.tox/
+.nox/
+
+# --- Pokrycie testów ---
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb.bak
+
+# --- Edytory / IDE ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- System operacyjny ---
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --- Sekrety ---
+.env
+.env.*
+!.env.example
+
+# --- Pliki tymczasowe ---
+*.bak
+*.orig
+*.rej
+*.tmp
+*.log
+
+# --- Dane wyjściowe skryptów ---
+data.json
