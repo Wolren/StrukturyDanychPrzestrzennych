@@ -69,3 +69,10 @@ $RECYCLE.BIN/
 
 # --- Dane wyjściowe skryptów ---
 data.json
+
+# --- Pliki generowane obok danych GIS ---
+*.aux.xml
+*.shp.xml
+*.qmd
+*.qgs~
+*.qgz~
